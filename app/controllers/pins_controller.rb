@@ -36,7 +36,6 @@ class PinsController < ApplicationController
     redirect_to root_path
   end
 
-
   private
   def pin_params
     params.require(:pin).permit(:title, :description, :image)

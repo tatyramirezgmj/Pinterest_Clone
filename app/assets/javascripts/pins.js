@@ -1,10 +1,11 @@
 var ready;
 
-$(document).on("ready", function(){
+
+$(function(){
   $('#pins').imagesLoaded(function() {
     return $('#pins').masonry({
       itemSelector: '.box',
       isFitWidth: true
     });
-  })
+  });
 });
